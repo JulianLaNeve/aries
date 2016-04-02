@@ -10,11 +10,7 @@ Aries is a library and CLI that makes it easy to create and run multi-stage work
 - Activity - Activities are modules that implement a specific task, that will typically make up a larger workflow.  Activities should be small and not try to do too much, although they can be long running.
 
 ## Creating new activities
-First browse through a couple of examples in the [aries-activities org](https://github.com/aries-activities).
-In the future, the aries CLI will include commands to generate and boilerplate activities, but for now its a manual process.
-
-#### Create a new aries-activity project
-We've created a [boilerplate project](https://github.com/aries-data/aries-activity-boilerplate) with all the necessities. Check out the docs there for instructions on creating a new activity.
+A [boilerplate project](https://github.com/aries-data/aries-activity-boilerplate) is available with all the necessities. Check out the docs there for instructions on creating a new activity. For now, creation is either manual or based off the boilerplate, but there will be a cli to create activites.
 
 ## Roadmap
 - [ ] Better support for JSON serialization for `onTask` return values.  Some activities might need to output multiple files as its output, and other activities may need to recieve multiple file names.
